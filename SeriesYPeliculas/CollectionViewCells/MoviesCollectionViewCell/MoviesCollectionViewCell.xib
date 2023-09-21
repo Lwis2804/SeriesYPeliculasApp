@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SeriesCollectionViewCell" customModule="SeriesYPeliculas" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MoviesCollectionViewCell" customModule="SeriesYPeliculas" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="120" height="248"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -69,8 +69,11 @@
                             <constraint firstItem="Jsi-Or-YgY" firstAttribute="leading" secondItem="TfC-h4-2Xy" secondAttribute="leading" constant="2" id="CRv-94-POI"/>
                             <constraint firstItem="M1f-kS-pTl" firstAttribute="leading" secondItem="TfC-h4-2Xy" secondAttribute="leading" constant="2" id="IAx-rc-wLW"/>
                             <constraint firstItem="DgG-GA-Zv7" firstAttribute="top" secondItem="Jsi-Or-YgY" secondAttribute="bottom" constant="6" id="Lvf-II-1yq"/>
+                            <constraint firstAttribute="bottom" secondItem="mxG-Dt-yCl" secondAttribute="bottom" constant="4" id="RGj-JF-TPb"/>
                             <constraint firstAttribute="trailing" secondItem="gwL-qV-Qkc" secondAttribute="trailing" constant="2" id="ZtC-f7-Rw2"/>
                             <constraint firstItem="mxG-Dt-yCl" firstAttribute="leading" secondItem="M1f-kS-pTl" secondAttribute="trailing" constant="4" id="c5n-cv-mtQ"/>
+                            <constraint firstAttribute="height" constant="244" id="cl6-75-hFg"/>
+                            <constraint firstAttribute="width" constant="116" id="gJQ-q8-lLD"/>
                             <constraint firstAttribute="trailing" secondItem="Jsi-Or-YgY" secondAttribute="trailing" constant="2" id="ib5-8v-Q4j"/>
                             <constraint firstItem="gwL-qV-Qkc" firstAttribute="top" secondItem="TfC-h4-2Xy" secondAttribute="top" constant="4" id="kgM-RL-zhu"/>
                             <constraint firstItem="gwL-qV-Qkc" firstAttribute="leading" secondItem="TfC-h4-2Xy" secondAttribute="leading" constant="2" id="l7Q-qT-0uR"/>
@@ -91,12 +94,11 @@
                 <constraint firstAttribute="trailing" secondItem="TfC-h4-2Xy" secondAttribute="trailing" constant="2" id="z8k-zE-IHd"/>
             </constraints>
             <connections>
-                <outlet property="backgroundIage" destination="TfC-h4-2Xy" id="R4p-Uf-PRS"/>
-                <outlet property="lblMovieDuracion" destination="DgG-GA-Zv7" id="Cdl-1T-2L6"/>
-                <outlet property="lblMovieTitle" destination="DgG-GA-Zv7" id="hyq-Kd-tpc"/>
-                <outlet property="lblStarsRate" destination="mxG-Dt-yCl" id="zkW-Zi-DIk"/>
-                <outlet property="movieImageCell" destination="gwL-qV-Qkc" id="2xM-ZL-bGz"/>
-                <outlet property="starsImage" destination="M1f-kS-pTl" id="wDI-ns-ju1"/>
+                <outlet property="generalBackgorundImage" destination="TfC-h4-2Xy" id="Syh-K4-6Zs"/>
+                <outlet property="lblMovieDuracion" destination="DgG-GA-Zv7" id="Fdp-bG-JsT"/>
+                <outlet property="lblMovieTitle" destination="Jsi-Or-YgY" id="C4o-Dm-nOz"/>
+                <outlet property="lblStarsRate" destination="mxG-Dt-yCl" id="jN1-lW-Vaw"/>
+                <outlet property="movieImageCell" destination="gwL-qV-Qkc" id="s4X-vN-9mH"/>
             </connections>
             <point key="canvasLocation" x="129.7709923664122" y="-11.267605633802818"/>
         </collectionViewCell>

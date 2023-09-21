@@ -10,3 +10,12 @@ class Categories {
     
     init() {}
 }
+
+class CategoriesSeries {
+    var title: String?
+    var episodes: String?
+    var stars:String?
+    var images: [String] = []
+    
+    init() {}
+}

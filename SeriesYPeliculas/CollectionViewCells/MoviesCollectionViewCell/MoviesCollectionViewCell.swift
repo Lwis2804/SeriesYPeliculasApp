@@ -4,9 +4,8 @@ import UIKit
 
 class MoviesCollectionViewCell: UICollectionViewCell {
     
-    
-    @IBOutlet weak var backgroundIage: UIView!{
-        didSet{self.backgroundIage.layer.cornerRadius = 10}
+    @IBOutlet weak var generalBackgorundImage: UIView!{
+        didSet{self.generalBackgorundImage.layer.cornerRadius = 10}
     }
     @IBOutlet weak var movieImageCell: UIImageView!{
         didSet{self.movieImageCell.layer.cornerRadius = 10}
@@ -14,7 +13,6 @@ class MoviesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblMovieTitle: UILabel!
     @IBOutlet weak var lblMovieDuracion: UILabel!
     @IBOutlet weak var lblStarsRate: UILabel!
-    @IBOutlet weak var starsImage: UIImageView!
     
     
     override func awakeFromNib() {
