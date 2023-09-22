@@ -20,11 +20,11 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZB-3Q-vc7">
                     <rect key="frame" x="12" y="12" width="296" height="544"/>
-                    <color key="backgroundColor" red="0.34805700179999999" green="0.1766990125" blue="0.28795301909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.00086986552919999995" green="0.27776318789999999" blue="0.4812998772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" red="0.1646807492" green="0.1645562351" blue="0.1728636026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="bZB-3Q-vc7" secondAttribute="bottom" constant="12" id="EtM-qk-x3a"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bZB-3Q-vc7" secondAttribute="trailing" constant="12" id="NbW-yi-rrO"/>

@@ -32,12 +32,12 @@
                                 <constraint firstAttribute="height" constant="32" id="REg-nt-VFh"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                            <color key="textColor" red="0.79826474189999996" green="0.70985251670000005" blue="0.68413418530000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Iia-py-cQy">
                             <rect key="frame" x="12" y="56" width="272" height="260"/>
-                            <color key="backgroundColor" red="0.1646807492" green="0.1645562351" blue="0.1728636026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="260" id="ujZ-Jd-8QJ"/>
                             </constraints>
@@ -54,12 +54,12 @@
                                 <constraint firstAttribute="height" constant="32" id="LXl-iM-f6f"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                            <color key="textColor" red="0.79826474189999996" green="0.70985251670000005" blue="0.68413418530000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Zpx-uY-tbW">
                             <rect key="frame" x="12" y="372" width="272" height="160"/>
-                            <color key="backgroundColor" red="0.1646807492" green="0.1645562351" blue="0.1728636026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JzE-lX-VAD">
                                 <size key="itemSize" width="128" height="128"/>
                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -68,7 +68,7 @@
                             </collectionViewFlowLayout>
                         </collectionView>
                     </subviews>
-                    <color key="backgroundColor" red="0.34805700179999999" green="0.1766990125" blue="0.28795301909999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.00086986552919999995" green="0.27776318789999999" blue="0.4812998772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="ipd-Wg-SgJ" firstAttribute="leading" secondItem="G2G-1A-sBa" secondAttribute="leading" constant="12" id="3ss-bs-glJ"/>
                         <constraint firstAttribute="bottom" secondItem="Zpx-uY-tbW" secondAttribute="bottom" constant="12" id="Agr-eJ-WQ5"/>
@@ -87,7 +87,7 @@
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" red="0.1646807492" green="0.1645562351" blue="0.1728636026" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="G2G-1A-sBa" secondAttribute="bottom" constant="12" id="5Mu-EW-rLb"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="G2G-1A-sBa" secondAttribute="trailing" constant="12" id="bvY-Gg-HYf"/>
