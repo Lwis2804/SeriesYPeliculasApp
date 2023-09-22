@@ -15,6 +15,8 @@
 		AA6105B82ABCEA2C007E2EC3 /* ExtensionPlayingNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105B72ABCEA2C007E2EC3 /* ExtensionPlayingNow.swift */; };
 		AA6105BB2ABCEDEF007E2EC3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105BA2ABCEDEF007E2EC3 /* ModelData.swift */; };
 		AA6105BE2ABCEE5F007E2EC3 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105BD2ABCEE5F007E2EC3 /* Categories.swift */; };
+		AA77123F2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77123D2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift */; };
+		AA7712402ABD2DB000FE4C60 /* exampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA77123E2ABD2DB000FE4C60 /* exampleCollectionViewCell.xib */; };
 		AAA2674C2ABBF2FD00727A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2674B2ABBF2FD00727A9E /* AppDelegate.swift */; };
 		AAA2674E2ABBF2FE00727A9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2674D2ABBF2FE00727A9E /* SceneDelegate.swift */; };
 		AAA267502ABBF2FE00727A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2674F2ABBF2FE00727A9E /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 		AA6105B72ABCEA2C007E2EC3 /* ExtensionPlayingNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPlayingNow.swift; sourceTree = "<group>"; };
 		AA6105BA2ABCEDEF007E2EC3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		AA6105BD2ABCEE5F007E2EC3 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		AA77123D2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA77123E2ABD2DB000FE4C60 /* exampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = exampleCollectionViewCell.xib; sourceTree = "<group>"; };
 		AAA267482ABBF2FD00727A9E /* SeriesYPeliculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesYPeliculas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA2674B2ABBF2FD00727A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA2674D2ABBF2FE00727A9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		AA6105A92ABCDB6F007E2EC3 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				AA77123C2ABD2D9900FE4C60 /* New Groupexample */,
 				AA6105AB2ABCDB96007E2EC3 /* SeriesCollectionViewCell */,
 				AA6105AA2ABCDB7C007E2EC3 /* MoviesCollectionViewCell */,
 			);
@@ -112,6 +117,15 @@
 				AA6105BD2ABCEE5F007E2EC3 /* Categories.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		AA77123C2ABD2D9900FE4C60 /* New Groupexample */ = {
+			isa = PBXGroup;
+			children = (
+				AA77123D2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift */,
+				AA77123E2ABD2DB000FE4C60 /* exampleCollectionViewCell.xib */,
+			);
+			path = "New Groupexample";
 			sourceTree = "<group>";
 		};
 		AAA2673F2ABBF2FD00727A9E = {
@@ -245,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6105B32ABCDBDB007E2EC3 /* MoviesCollectionViewCell.xib in Resources */,
+				AA7712402ABD2DB000FE4C60 /* exampleCollectionViewCell.xib in Resources */,
 				AAA267662ABBF57F00727A9E /* PlayingNowViewController.xib in Resources */,
 				AAA267582ABBF30100727A9E /* LaunchScreen.storyboard in Resources */,
 				AAA2676A2ABBF59A00727A9E /* MostPopularViewController.xib in Resources */,
@@ -263,6 +278,7 @@
 			files = (
 				AAA267692ABBF59A00727A9E /* MostPopularViewController.swift in Sources */,
 				AAA267652ABBF57F00727A9E /* PlayingNowViewController.swift in Sources */,
+				AA77123F2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift in Sources */,
 				AAA267502ABBF2FE00727A9E /* ViewController.swift in Sources */,
 				AA6105B22ABCDBDB007E2EC3 /* MoviesCollectionViewCell.swift in Sources */,
 				AAA2674C2ABBF2FD00727A9E /* AppDelegate.swift in Sources */,
