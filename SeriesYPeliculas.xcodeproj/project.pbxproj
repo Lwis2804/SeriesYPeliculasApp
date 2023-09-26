@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA107BF22AC26108000A8483 /* MpMoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA107BF02AC26108000A8483 /* MpMoviesCollectionViewCell.swift */; };
+		AA107BF32AC26108000A8483 /* MpMoviesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA107BF12AC26108000A8483 /* MpMoviesCollectionViewCell.xib */; };
+		AA107BF62AC26129000A8483 /* MpSeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA107BF42AC26129000A8483 /* MpSeriesCollectionViewCell.swift */; };
+		AA107BF72AC26129000A8483 /* MpSeriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA107BF52AC26129000A8483 /* MpSeriesCollectionViewCell.xib */; };
 		AA6105AE2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105AC2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.swift */; };
 		AA6105AF2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6105AD2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.xib */; };
 		AA6105B22ABCDBDB007E2EC3 /* MoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105B02ABCDBDB007E2EC3 /* MoviesCollectionViewCell.swift */; };
@@ -15,8 +19,6 @@
 		AA6105B82ABCEA2C007E2EC3 /* ExtensionPlayingNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105B72ABCEA2C007E2EC3 /* ExtensionPlayingNow.swift */; };
 		AA6105BB2ABCEDEF007E2EC3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105BA2ABCEDEF007E2EC3 /* ModelData.swift */; };
 		AA6105BE2ABCEE5F007E2EC3 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6105BD2ABCEE5F007E2EC3 /* Categories.swift */; };
-		AA77123F2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77123D2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift */; };
-		AA7712402ABD2DB000FE4C60 /* exampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA77123E2ABD2DB000FE4C60 /* exampleCollectionViewCell.xib */; };
 		AAA2674C2ABBF2FD00727A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2674B2ABBF2FD00727A9E /* AppDelegate.swift */; };
 		AAA2674E2ABBF2FE00727A9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2674D2ABBF2FE00727A9E /* SceneDelegate.swift */; };
 		AAA267502ABBF2FE00727A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA2674F2ABBF2FE00727A9E /* ViewController.swift */; };
@@ -31,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA107BF02AC26108000A8483 /* MpMoviesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpMoviesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA107BF12AC26108000A8483 /* MpMoviesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MpMoviesCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA107BF42AC26129000A8483 /* MpSeriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpSeriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA107BF52AC26129000A8483 /* MpSeriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MpSeriesCollectionViewCell.xib; sourceTree = "<group>"; };
 		AA6105AC2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA6105AD2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeriesCollectionViewCell.xib; sourceTree = "<group>"; };
 		AA6105B02ABCDBDB007E2EC3 /* MoviesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -39,8 +45,6 @@
 		AA6105B72ABCEA2C007E2EC3 /* ExtensionPlayingNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionPlayingNow.swift; sourceTree = "<group>"; };
 		AA6105BA2ABCEDEF007E2EC3 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		AA6105BD2ABCEE5F007E2EC3 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
-		AA77123D2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleCollectionViewCell.swift; sourceTree = "<group>"; };
-		AA77123E2ABD2DB000FE4C60 /* exampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = exampleCollectionViewCell.xib; sourceTree = "<group>"; };
 		AAA267482ABBF2FD00727A9E /* SeriesYPeliculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesYPeliculas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA2674B2ABBF2FD00727A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA2674D2ABBF2FE00727A9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,10 +71,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA107BED2AC260BC000A8483 /* MpMovies */ = {
+			isa = PBXGroup;
+			children = (
+				AA107BF02AC26108000A8483 /* MpMoviesCollectionViewCell.swift */,
+				AA107BF12AC26108000A8483 /* MpMoviesCollectionViewCell.xib */,
+			);
+			path = MpMovies;
+			sourceTree = "<group>";
+		};
 		AA6105A92ABCDB6F007E2EC3 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				AA77123C2ABD2D9900FE4C60 /* New Groupexample */,
+				AA107BED2AC260BC000A8483 /* MpMovies */,
+				AA83B9772AC25B15005DF3D9 /* MpSeries  */,
 				AA6105AB2ABCDB96007E2EC3 /* SeriesCollectionViewCell */,
 				AA6105AA2ABCDB7C007E2EC3 /* MoviesCollectionViewCell */,
 			);
@@ -119,13 +133,13 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		AA77123C2ABD2D9900FE4C60 /* New Groupexample */ = {
+		AA83B9772AC25B15005DF3D9 /* MpSeries  */ = {
 			isa = PBXGroup;
 			children = (
-				AA77123D2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift */,
-				AA77123E2ABD2DB000FE4C60 /* exampleCollectionViewCell.xib */,
+				AA107BF42AC26129000A8483 /* MpSeriesCollectionViewCell.swift */,
+				AA107BF52AC26129000A8483 /* MpSeriesCollectionViewCell.xib */,
 			);
-			path = "New Groupexample";
+			path = "MpSeries ";
 			sourceTree = "<group>";
 		};
 		AAA2673F2ABBF2FD00727A9E = {
@@ -259,12 +273,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6105B32ABCDBDB007E2EC3 /* MoviesCollectionViewCell.xib in Resources */,
-				AA7712402ABD2DB000FE4C60 /* exampleCollectionViewCell.xib in Resources */,
 				AAA267662ABBF57F00727A9E /* PlayingNowViewController.xib in Resources */,
 				AAA267582ABBF30100727A9E /* LaunchScreen.storyboard in Resources */,
 				AAA2676A2ABBF59A00727A9E /* MostPopularViewController.xib in Resources */,
 				AAA267552ABBF30100727A9E /* Assets.xcassets in Resources */,
 				AAA267532ABBF2FE00727A9E /* Main.storyboard in Resources */,
+				AA107BF72AC26129000A8483 /* MpSeriesCollectionViewCell.xib in Resources */,
+				AA107BF32AC26108000A8483 /* MpMoviesCollectionViewCell.xib in Resources */,
 				AA6105AF2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +293,8 @@
 			files = (
 				AAA267692ABBF59A00727A9E /* MostPopularViewController.swift in Sources */,
 				AAA267652ABBF57F00727A9E /* PlayingNowViewController.swift in Sources */,
-				AA77123F2ABD2DB000FE4C60 /* exampleCollectionViewCell.swift in Sources */,
+				AA107BF62AC26129000A8483 /* MpSeriesCollectionViewCell.swift in Sources */,
+				AA107BF22AC26108000A8483 /* MpMoviesCollectionViewCell.swift in Sources */,
 				AAA267502ABBF2FE00727A9E /* ViewController.swift in Sources */,
 				AA6105B22ABCDBDB007E2EC3 /* MoviesCollectionViewCell.swift in Sources */,
 				AAA2674C2ABBF2FD00727A9E /* AppDelegate.swift in Sources */,

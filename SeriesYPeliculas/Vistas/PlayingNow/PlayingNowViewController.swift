@@ -11,19 +11,19 @@ class PlayingNowViewController: UIViewController {
 
 
     @IBOutlet weak var generalBackground: UIView!{
-        didSet{self.generalBackground.layer.cornerRadius = 20}
+        didSet{self.generalBackground.layer.cornerRadius = 10}
     }
     @IBOutlet weak var lblMoviesTitle: UILabel!{
-        didSet{self.lblMoviesTitle.layer.cornerRadius = 20}
+        didSet{self.lblMoviesTitle.layer.cornerRadius = 10}
     }
     @IBOutlet weak var moviesCollectionView: UICollectionView!{
-        didSet{self.moviesCollectionView.layer.cornerRadius = 20}
+        didSet{self.moviesCollectionView.layer.cornerRadius = 10}
     }
     @IBOutlet weak var lblSeriesTitle: UILabel!{
-        didSet{self.lblSeriesTitle.layer.cornerRadius = 20}
+        didSet{self.lblSeriesTitle.layer.cornerRadius = 10}
     }
     @IBOutlet weak var seriesCollectionView: UICollectionView!{
-        didSet{self.seriesCollectionView.layer.cornerRadius = 20}
+        didSet{self.seriesCollectionView.layer.cornerRadius = 10}
     }
     
     
