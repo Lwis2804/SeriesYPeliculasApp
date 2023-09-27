@@ -19,6 +19,11 @@ extension PlayingNowViewController : UICollectionViewDelegate & UICollectionView
         }
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+      let goToView = MovieDetailViewController()
+        navigationController?.pushViewController(goToView, animated: true)
+    }
+    
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: CGFloat(120.0), height: CGFloat(248.0))
     }
