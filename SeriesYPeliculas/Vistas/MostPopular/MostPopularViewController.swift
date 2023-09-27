@@ -23,11 +23,35 @@ class MostPopularViewController: UIViewController {
     }
     
     
+    let modelData: ModelData = ModelData()
+    var arrCategories: [Categories] = []
+    var arrCategoriesSeries: [CategoriesSeries] = []
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpMoviesCvMp()
+        setUpSeriesCvMp()
+        arrCategories = modelData.returnDataOnCategoriesToMoviesCV()
+        arrCategoriesSeries = modelData.returnDataOnCategoriesSeriesCV()
     }
 
+    
+    func setUpMoviesCvMp() {
+        self.moviesCollectionVMP.dataSource = self
+        self.moviesCollectionVMP.delegate = self
+        self.moviesCollectionVMP.tag = 12
+        self.moviesCollectionVMP.register(MpMoviesCollectionViewCell.nib, forCellWithReuseIdentifier: MpMoviesCollectionViewCell.identifier)
+    }
+    
+    func setUpSeriesCvMp() {
+        self.seriesCollectionVMP.dataSource = self
+        self.seriesCollectionVMP.delegate = self
+        self.seriesCollectionVMP.tag = 34
+        self.seriesCollectionVMP.register(MpSeriesCollectionViewCell.nib, forCellWithReuseIdentifier: MpSeriesCollectionViewCell.identifier)
+    }
+    
 
  
 }
