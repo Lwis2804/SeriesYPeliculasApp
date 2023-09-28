@@ -11,6 +11,22 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieDetailViewController" customModule="SeriesYPeliculas" customModuleProvider="target">
             <connections>
+                <outlet property="backgroundInformation" destination="ig4-mx-MsK" id="1LY-zd-S2a"/>
+                <outlet property="backgroundTrailer" destination="RKF-45-Yw2" id="KvB-Cq-HFs"/>
+                <outlet property="btnReproducir" destination="OJP-Ci-2O2" id="HUY-bJ-G21"/>
+                <outlet property="btnVerMastrde" destination="4a1-hh-it6" id="mpv-yK-wWS"/>
+                <outlet property="btnVerTrailer" destination="6KI-bW-5Ru" id="9rR-Ah-Qrb"/>
+                <outlet property="calendarImage" destination="zrM-eu-EQX" id="UXD-zg-Xge"/>
+                <outlet property="imageTrailerDetail" destination="UMZ-Fv-i0i" id="Kqx-g1-FYl"/>
+                <outlet property="imgMovieDetail" destination="hxP-oT-2k8" id="h2g-Mh-Leh"/>
+                <outlet property="lblDateDetail" destination="pBr-UP-NqN" id="DLx-sA-Fl9"/>
+                <outlet property="lblDexcriptionMovieDetail" destination="AUx-T6-cuL" id="yqW-y9-ZZ5"/>
+                <outlet property="lblDuracionDetail" destination="zXG-fd-QGc" id="tBC-Kw-oOz"/>
+                <outlet property="lblDuraconTrailer" destination="b9h-xp-o98" id="hzG-ej-UFw"/>
+                <outlet property="lblGeneroDetail" destination="Qfh-jg-h2z" id="CM2-wK-Goo"/>
+                <outlet property="lblInformacionTitle" destination="koh-V5-wGz" id="dpt-dZ-iGO"/>
+                <outlet property="lblRepartoDetail" destination="ASB-v5-h5a" id="eR6-ge-GXx"/>
+                <outlet property="repartoCollectionView" destination="Hrr-nl-ny7" id="7gK-h1-Fbi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

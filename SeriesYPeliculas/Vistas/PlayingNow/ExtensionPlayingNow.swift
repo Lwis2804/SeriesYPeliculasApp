@@ -20,8 +20,16 @@ extension PlayingNowViewController : UICollectionViewDelegate & UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
       let goToView = MovieDetailViewController()
-        navigationController?.pushViewController(goToView, animated: true)
+      let goToSeries = SeriesDetailViewController()
+        
+        
+        if collectionView.tag == 12 {
+            navigationController?.pushViewController(goToView, animated: true)
+        }else{
+            navigationController?.pushViewController(goToSeries, animated: true)
+        }
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
