@@ -20,6 +20,10 @@
 		AA3E83B52ACE692300A5D718 /* UpcomingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E83AC2ACE692300A5D718 /* UpcomingResponse.swift */; };
 		AA3E83B62ACE692300A5D718 /* MostPopularResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E83AE2ACE692300A5D718 /* MostPopularResponse.swift */; };
 		AA3E83B72ACE692300A5D718 /* MostPopularResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E83AF2ACE692300A5D718 /* MostPopularResults.swift */; };
+		AA3E83BE2ACE699300A5D718 /* MpMoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E83B92ACE699200A5D718 /* MpMoviesCollectionViewCell.swift */; };
+		AA3E83BF2ACE699300A5D718 /* MpMoviesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3E83BA2ACE699200A5D718 /* MpMoviesCollectionViewCell.xib */; };
+		AA3E83C02ACE699300A5D718 /* MoviesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3E83BC2ACE699300A5D718 /* MoviesCollectionViewCell.xib */; };
+		AA3E83C12ACE699300A5D718 /* PlayingNowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3E83BD2ACE699300A5D718 /* PlayingNowCollectionViewCell.swift */; };
 		AA4D56682AC4B6F60097052A /* ExtensionMostPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D56672AC4B6F60097052A /* ExtensionMostPopular.swift */; };
 		AA4D566D2AC4BC7E0097052A /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D566B2AC4BC7E0097052A /* MovieDetailViewController.swift */; };
 		AA4D566E2AC4BC7E0097052A /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4D566C2AC4BC7E0097052A /* MovieDetailViewController.xib */; };
@@ -59,6 +63,10 @@
 		AA3E83AC2ACE692300A5D718 /* UpcomingResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingResponse.swift; sourceTree = "<group>"; };
 		AA3E83AE2ACE692300A5D718 /* MostPopularResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularResponse.swift; sourceTree = "<group>"; };
 		AA3E83AF2ACE692300A5D718 /* MostPopularResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularResults.swift; sourceTree = "<group>"; };
+		AA3E83B92ACE699200A5D718 /* MpMoviesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MpMoviesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA3E83BA2ACE699200A5D718 /* MpMoviesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MpMoviesCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA3E83BC2ACE699300A5D718 /* MoviesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviesCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA3E83BD2ACE699300A5D718 /* PlayingNowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingNowCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA4D56672AC4B6F60097052A /* ExtensionMostPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMostPopular.swift; sourceTree = "<group>"; };
 		AA4D566B2AC4BC7E0097052A /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		AA4D566C2AC4BC7E0097052A /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
@@ -169,6 +177,25 @@
 			path = MostPopularResponse;
 			sourceTree = "<group>";
 		};
+		AA3E83B82ACE699200A5D718 /* MpMovies */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E83B92ACE699200A5D718 /* MpMoviesCollectionViewCell.swift */,
+				AA3E83BA2ACE699200A5D718 /* MpMoviesCollectionViewCell.xib */,
+			);
+			name = MpMovies;
+			path = ../../../SeriesYPeliculasApp/SeriesYPeliculas/CollectionViewCells/MpMovies;
+			sourceTree = "<group>";
+		};
+		AA3E83BB2ACE699300A5D718 /* PlayingNowCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E83BC2ACE699300A5D718 /* MoviesCollectionViewCell.xib */,
+				AA3E83BD2ACE699300A5D718 /* PlayingNowCollectionViewCell.swift */,
+			);
+			path = PlayingNowCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		AA4D56692AC4BC380097052A /* SeriesDetailView */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				AA107BED2AC260BC000A8483 /* MpMovies */,
+				AA3E83B82ACE699200A5D718 /* MpMovies */,
+				AA3E83BB2ACE699300A5D718 /* PlayingNowCollectionViewCell */,
 				AA83B9772AC25B15005DF3D9 /* MpSeries  */,
 				AA6105AB2ABCDB96007E2EC3 /* SeriesCollectionViewCell */,
 				AA6105AA2ABCDB7C007E2EC3 /* MoviesCollectionViewCell */,
@@ -377,6 +406,7 @@
 			files = (
 				AA4D566E2AC4BC7E0097052A /* MovieDetailViewController.xib in Resources */,
 				AA6105B32ABCDBDB007E2EC3 /* MoviesCollectionViewCell.xib in Resources */,
+				AA3E83BF2ACE699300A5D718 /* MpMoviesCollectionViewCell.xib in Resources */,
 				AAA267662ABBF57F00727A9E /* PlayingNowViewController.xib in Resources */,
 				AAA267582ABBF30100727A9E /* LaunchScreen.storyboard in Resources */,
 				AAA2676A2ABBF59A00727A9E /* MostPopularViewController.xib in Resources */,
@@ -386,6 +416,7 @@
 				AA107BF32AC26108000A8483 /* MpMoviesCollectionViewCell.xib in Resources */,
 				AA6105AF2ABCDBC3007E2EC3 /* SeriesCollectionViewCell.xib in Resources */,
 				AA4D56762AC5103F0097052A /* SeriesDetailViewController.xib in Resources */,
+				AA3E83C02ACE699300A5D718 /* MoviesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +428,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3E83B02ACE692300A5D718 /* SearchResponse.swift in Sources */,
+				AA3E83C12ACE699300A5D718 /* PlayingNowCollectionViewCell.swift in Sources */,
 				AA3E83A12ACE68FC00A5D718 /* Movie_WS.swift in Sources */,
+				AA3E83BE2ACE699300A5D718 /* MpMoviesCollectionViewCell.swift in Sources */,
 				AA3E83B52ACE692300A5D718 /* UpcomingResponse.swift in Sources */,
 				AAA267692ABBF59A00727A9E /* MostPopularViewController.swift in Sources */,
 				AAA267652ABBF57F00727A9E /* PlayingNowViewController.swift in Sources */,
